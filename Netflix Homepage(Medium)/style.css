@@ -1,0 +1,397 @@
+.contener{
+    background-color: black;
+    background: black;
+}
+.our-story-card{
+    padding: 70px 45px;
+}
+.BacgrounImage img{
+   height: 755px;
+   background: rgba(0,0,0,.4);
+   filter: opacity(0.8) drop-shadow(0 0 0 rgb(0, 0, 0));
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
+   bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    border-bottom: 8px solid;
+    border-bottom-color: #222;
+
+}
+.our-story-card-text {
+    margin: 0 auto;
+    max-width: 950px;
+    padding: 75px 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+
+    font-size: 1.625rem;
+    font-weight: 400;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;;
+
+    color: white
+    
+}
+.our-story-card-text h1{
+    margin: 0 auto;
+    max-width: 640px;
+}
+.our-story-card-text h3{
+    font-size: 1.2rem
+}
+.email input{
+    height: 55px;
+    padding: 10px 10px 0;
+    width: 78%;
+    font-size: 16px;
+
+    min-width: 450px;
+}
+.email button{
+    position: absolute;
+    left: 700px;
+    top: 345px;
+    height: 55px;
+    width: 167px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 21px;
+}
+.tv-Anim-Section{
+    position: relative;
+    top: 250px;
+    padding: 70px 40px;
+    background-color: black;
+
+    border-bottom: 8px solid;
+    border-bottom-color: #222;
+}
+.Anim-section-contener{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+.Anim-tv-contener{
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    height: 100%;
+    width: 48%;
+}
+.Anim-tv-contener .Anim-tv{
+    border: 0;
+    height: auto;
+    max-width: 140%; 
+}
+.Anim-secton-text h1{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: white;
+    font-weight: 800;
+}
+.Anim-secton-text h2{
+    font-size: 1.9rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: white;
+    font-weight:800;
+}
+.mobile-Anim-section{
+    position: relative;
+    top: 250px;
+    padding: 70px 40px;
+    background-color: black;
+
+    border-bottom: 8px solid;
+    border-bottom-color: #222;
+}
+.Download-section{
+    align-items: center;
+    background: #000;
+    border: 2px solid hsla(0,0%,100%,.25);
+    border-radius: 0.75em;
+    bottom: 17%;
+    box-shadow: #000;
+    display: flex;
+    left: 25%;
+    margin: 0 auto;
+    min-width: 15em;
+    padding: 0.25em -0.35em;
+    position: absolute;
+    transform: translateX(-55%);
+    width: 25%;
+}
+.Movie-poster img{
+    width: 50px;
+    border: 0;
+    height: auto;
+    max-width: 50%;
+}
+.Download-section-text{
+    color: white;
+    position: relative;
+    left: 21px;
+    text-align:calc(5px);
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.Download-section-text h5{
+    color: blue;
+    position: relative;
+    descent-override: 2px;
+}
+.download-button img{
+    position: relative;
+    right: -102px;
+    width: 3em;
+}
+.mobile-Anime-text{
+    color: white;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    position: relative;
+    position: relative;
+    top: 74px;
+    
+}
+.mobile-Anim-section-contener{
+    display: flex;
+}
+.mobile-Anime-text h1{
+    font-size: 50px;
+}
+.mobile-Anim-img{
+    width: 75%;
+}
+.mobile-Anim-img img{
+    width: 75%;
+}
+.pc-Anim-section{
+    position: relative;
+    top: 250px;
+    padding: 70px 40px;
+    background-color: black;
+    border-bottom: 8px solid;
+    border-bottom-color: #222;
+}
+.pc-Anime-text{    
+    color: white;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    position: relative;
+    top: 103px;
+}
+.pc-Anim-section-contener{
+    display: flex;
+}
+.pc-Anime-text-title{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+}
+.pc-Anime-text-subtitle{
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+.pc-Anime-img img{
+    width: 100%;
+}
+.childern-section{
+    position: relative;
+    top: 250px;
+    padding: 70px 40px;
+    background-color: black;
+    border-bottom: 8px solid;
+    border-bottom-color: #222;
+}
+.childer-contener{
+    display: flex;
+}
+.childer-text{
+    color: white;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    position: relative;
+    top: -15px;
+    left: 73px;
+    padding-right: 10%;
+    padding-left: 19%;
+}
+.childer-text-title{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+}
+.childer-text-subtitle{
+    font-size: 1.625rem;
+    font-weight: 400;  
+}
+.childer-img img{
+    width: 153%;
+}
+.faq-card{
+    position: relative;
+    top: 250px;
+    padding: 70px 40px;
+    background-color: black;
+    border-bottom: 8px solid;
+    border-bottom-color: #222;
+    color: white;
+}
+.faq-que{
+    border: 0;
+    font-weight: 400;
+    margin-bottom: 1px;
+    padding: 0.8em 2.2em 0.8em 1.2em;
+    position: relative;
+    width: 100%;
+    background: #303030;
+    color: white;
+    display: block;
+    text-align: left;
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+.faq-card-text h1{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.faq-card-text h3{
+    text-align: center;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 1.2rem;
+}
+.faq-list{
+    margin: 2em auto;
+    width: 75%;
+    list-style-type: none;
+}
+.input-id input{
+    position: relative;
+    left: 19%;
+    width: 64%;
+    height: 55px;
+}
+.input-id button{
+    color: white;
+    background-color: red;
+    position: absolute;
+    right: 252px;
+    width: 167px;
+    height: 55px;
+    border: none;
+    font-size: 21px;
+}
+.our-footer{
+    padding: 70px 140px;
+}
+.site-footer{    
+    display: flex;
+    line-height: 33px;
+    font-size: 13px;
+}
+.site-footer li a{
+    color:  #737373;
+    text-decoration: none;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.site-footer li{
+    list-style-type: none;
+}
+.footer-top{
+    color:  #737373;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-decoration: none;
+}
+.footer-top a{
+    
+    color:  #737373;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-decoration: none;
+}
+.footer-item{
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 16px;
+    min-width: 100px;
+    padding: 0 12px 0 0;
+    vertical-align: top;
+    width: 24%;
+
+    list-style: none;
+    margin-left: 0;
+}
+.fotter-link{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    font-size: 13px;
+    max-width: 1000px;
+    font-weight: 700;
+}
+.ui-select{
+    width: 141px;
+    height: 46px;
+    background-color: transparent;
+    color:  #999;
+    border: 1px solid #333;
+    text-align: end;
+    font-size: 13px;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    position: relative;
+    right: 586%;
+    top: 191px;
+    font-weight: 700;
+}
+.footer-country{
+    color:  #737373;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 13px; 
+    font-weight: 700;
+    margin-top: 24px;
+    position: relative;
+    right: 586%;
+    top: 170px;
+}
+.logo img{
+    width: 139px;
+    height: 40px;
+    position: relative;
+    left: 64px;
+    top: 10px;
+}
+.language-change{
+    position: relative;
+    color: white;
+    left: 69%;
+    bottom: 19px;
+    background-color: #000000cc;
+    width: 104px;
+    height: 40;
+    text-align: end;
+    border: 1px solid #333;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+}
+.sign-in{
+    position: relative;
+    left: 71%;
+    bottom: 19px;
+    background-color: red;
+    border: none;
+    height: 35px;
+    width: 7%;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+}
